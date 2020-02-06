@@ -1,3 +1,22 @@
+.topnav{
+  text-align: right;
+}
+.topnav ul{
+  list-style: none;
+}
+.topnav li{
+  display: inline-block;
+  margin-right: 30px
+}
+.topnav a{
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.topnav a:hover{
+  background-color:black;
+}
+
 .column{
   float: left;
   width: 30%;
@@ -32,16 +51,4 @@ h1{
 }
 h2{
   font-family: 'Ribeye', cursive;
-}
-nav li{
-  width: 100%;
-  float: right;
-  color: white;
-  display: inline-block;
-}
-@media screen and (max-width:500px){
-  nav{
-    float: none;
-
-  }
 }
